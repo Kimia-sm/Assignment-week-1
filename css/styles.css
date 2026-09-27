@@ -2,13 +2,15 @@
    This file is already linked from index.html. Write your rules below.
    Start by changing the body background colour and saving, to confirm the link works. */
 /* Set for all pages */
+* {
+  box-sizing: border-box;
+}
    body {
    font-family: Arial, sans-serif;
 }
 /* Main heading styles */
    h1{
-   color: blue;
-   background-color: rgb(226, 248, 255);
+   color: rgb(46, 46, 124);
 }
 /* main subheading styles */
 h2{
@@ -21,11 +23,13 @@ p{
    color: rgb(47, 47, 47);
    text-align: center;
    line-height: 1.5;
+
 }
 /* Introduction styles */
 .intro{
-   background-color: rgb(225, 240, 255);
    font-style: italic;
+   font-size: 18px;
+   color: rgb(0, 0, 0);
 }
 /* id styles */
 #summit{
@@ -40,4 +44,22 @@ h1 , h2{
 /* cascade rules */
 p {
     color: darkgreen;
+}
+/* div styles */
+.card {
+   background-color: rgb(182, 191, 255);
+   border: 2px solid rgb(63, 75, 166);
+   border-radius: 10px;
+   padding: 20px;
+   margin-bottom: 20px;
+   width: 600px;
+   margin-left: auto;
+   margin-right: auto;
+}
+.paragraph-one {
+   margin-top: 10px;  
+}
+
+.paragraph-two {
+   margin-bottom: 80px;  
 }
